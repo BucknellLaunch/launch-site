@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>LAUNCH</title>
+
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+  		<meta name="author" content="Melissa Rios">
+
+  		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src = "js/bootstrap.js"></script>
+  		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  		<script src="js/isotope.pkgd.min.js"></script>
+  		<script src="js/index.js"></script>
+
+		<link href = "css/bootstrap.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+
+	<body>
+
+		<div class = "navbar navbar-inverse navbar-fixed-top">
+			<div class = "container">
+				<a class = "navbar-brand"><img src = "img/logotype160x.png"></a>
+
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<a href="http://eepurl.com/1yaLz" target="_blank" class="navbar-btn btn-info btn pull-right">Subscribe</a>
+
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+
+					<ul class = "nav navbar-nav navbar-left">
+
+						<li><a href = "#mission" data-toggle="modal" data-target="#mission"><img src="img\glyphicons_free\glyphicons\png\glyphicons_377_riflescope.png"> MISSION</a></li>
+						<li><a href = "#events" id="event-filter" data-filter = "event"><img src="img\glyphicons_free\glyphicons\png\glyphicons_045_calendar.png"> EVENTS</a></li>
+						<li><a href = "#projects" id="project-filter" data-filter = "project"><img src="img\glyphicons_free\glyphicons\png\glyphicons_086_display.png"> PROJECTS</a></li>
+						<li><a href = "#members" id="member-filter" data-filter="member"><img src="img\glyphicons_free\glyphicons\png\glyphicons_003_user.png"> MEMBERS</a></li>
+						<li><a href = "https://getinvolved.bucknell.edu/organization/bucknellosc/home/join"  target="_blank"><img src="img\glyphicons_free\glyphicons\png\glyphicons_043_group.png"> GET INVOLVED</a></li>
+						<li><a href = "#contact"><img src = "img\glyphicons_free\glyphicons\png\glyphicons_244_conversation.png"> CONTACT US</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="container">
+
+		<!-- PROJECTS -->
+			<div class="item project"><img src="img\virtualbucknellsquare.png"><h2>Virtual Bucknell</h2></div>
+			<div class="item project"><img src="img\mediareadersquare.png"><h2>Media Reader</h2></div>
+			<div class="item project"><img src="img\mybucknellhelpersquare.png"><h2>myBucknell Helper</h2></div>
+
+			<!-- EVENTS -->
+			<div class="item event"><img src="img\openhatchsquare.png"><h2>Open Source Comes to Campus</h2></div>
+			<div class="item event"><img src="img\webfundamentalssquare.png"><h2>Web Fundamentals Workshop</h2></div>
+			<div class="item event"><img src="img\dantepfersquare.png"><h2>Dan Tepfer's Music App</h2></div>
+
+			<!-- MEMBERS -->
+			<div class="item member"><img src="img\joeduvallsquare.png"><h2>Joe Duvall</h2></div>
+			<div class="item member"><img src="img\lilisquare.png"><h2>Li Li</h2></div>
+			<div class="item member"><img src="img\sonphamsquare.png"><h2>Son Pham</h2></div>
+			<div class="item member"><img src="img\tungphansquare.png"><h2>Tung Phan</h2></div>
+			<div class="item member"><img src="img\melissariossquare.png"><h2>Melissa Rios</h2></div>
+			</div>
+
+		<div class = "navbar navbar-inverse navbar-static-bottom">
+			<div class = "container">
+				<p class="navbar-text pull-left">Site built by Melissa Rios.</p>
+			</div>
+		</div>	
+
+		<div class="modal fade" id="mission" tabindex="-1" role="dialog" aria-labelledby="missionModal" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">
+											<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+											</button>
+											<h4 class="modal-title" id="missionModalLabel">MISSION STATEMENT</h4>
+										</div>
+										<div class="modal-body">
+											<p>LAUNCH is a student-run organization that provides a community of interdisciplinary learners with a foundation in technology. We focus on two areas: educational events and collaborative projects. Our events are geared towards educating students from all backgrounds on how they can use technology to achieve their innovative ideas while our  projects provide them with opportunities to apply their newly learned skill-sets. Ultimately, LAUNCH equips students with relevant skills and experience so that they can lead and forge their own paths after graduation.</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+	</body>
+</html>
